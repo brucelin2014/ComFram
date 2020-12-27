@@ -9,9 +9,10 @@
             <ColumnDefinition Width="158*" />
             <ColumnDefinition Width="603*" />
         </Grid.ColumnDefinitions>
-        
+
         <ListBox x:Name="Items"
-                 DisplayMemberPath="DisplayName"/>
+                 DisplayMemberPath="DisplayName">
+        </ListBox>
         <ContentControl Grid.Column="1" x:Name="ActiveItem" />
 
         <TextBlock x:Name="Data1"
@@ -19,11 +20,17 @@
                    HorizontalAlignment="Center"
                    FontSize="20" />
 
-        <Button x:Name="Save"
-            Content="Button" HorizontalAlignment="Left" Margin="32,106,0,0" VerticalAlignment="Top" Width="75"/>
-
         <Button x:Name="ClickMeShowWindow"
             Content="点我显示新窗体" HorizontalAlignment="Left" Margin="32,156,0,0" VerticalAlignment="Top" Width="150"/>
+
+        <Button x:Name="PersonManage"
+            Content="Person" HorizontalAlignment="Left" Margin="32,200,0,0" VerticalAlignment="Top" Width="150"/>
+
+        <Button x:Name="UserManage"
+            Content="User" HorizontalAlignment="Left" Margin="32,250,0,0" VerticalAlignment="Top" Width="150"/>
+
+        <Button x:Name="Login"
+            Content="Login" HorizontalAlignment="Left" Margin="32,300,0,0" VerticalAlignment="Top" Width="150"/>
 
 
     </Grid>

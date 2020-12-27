@@ -1,0 +1,20 @@
+﻿<UserControl x:Class="ComFram.LoginView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ComFram"
+             mc:Ignorable="d" 
+             d:DesignHeight="250" d:DesignWidth="500">
+    <Grid Height="250" Width="500">
+        <Label Content="User Code" HorizontalAlignment="Left" Margin="137,47,0,0" VerticalAlignment="Top"/>
+        <Label Content="Password" HorizontalAlignment="Left" Margin="137,89,0,0" VerticalAlignment="Top"/>
+
+        <TextBox x:Name="UserCode" HorizontalAlignment="Left" Height="23" Margin="231,51,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="Password" HorizontalAlignment="Left" Height="23" Margin="231,93,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+
+        <Button x:Name="Login" Content="Login" HorizontalAlignment="Left" Margin="137,173,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="Cancel" Content="Cancel" HorizontalAlignment="Left" Margin="276,173,0,0" VerticalAlignment="Top" Width="75"/>
+
+    </Grid>
+</UserControl>

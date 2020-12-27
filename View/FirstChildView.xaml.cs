@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace ComFram.View
+namespace ComFram
 {
     /// <summary>
     /// Interaction logic for FirstChildView.xaml

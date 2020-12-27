@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ComFram.ViewModel
+namespace ComFram
 {
     public class EditChildModel : Screen, IEditChildModel
     {

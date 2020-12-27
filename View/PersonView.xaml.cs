@@ -16,11 +16,11 @@ using System.Windows.Shapes;
 namespace ComFram
 {
     /// <summary>
-    /// Interaction logic for SecondChildView.xaml
+    /// Interaction logic for PersonView.xaml
     /// </summary>
-    public partial class SecondChildView : UserControl
+    public partial class PersonView : UserControl
     {
-        public SecondChildView()
+        public PersonView()
         {
             InitializeComponent();
         }

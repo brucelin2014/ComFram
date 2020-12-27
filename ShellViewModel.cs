@@ -52,31 +52,20 @@ namespace ComFram
             base.OnDeactivate(close);
         }
 
-        /*
-        private string _Data1 = "I'm data1.";
-        /// <summary>
-        /// 绑定通知，数据显示
-        /// </summary>
-        public string Data1
+        public void PersonManage()
         {
-            get { return _Data1; }
-            set
-            {
-                if (_Data1 == value) { return; }
-                _Data1 = value;
-                NotifyOfPropertyChange(() => Data1);
-            }
+            _WindowManager.ShowWindow(new PersonViewModel());
         }
 
-        //public string Data1 { get; set; } = "I'm data1."; // 默认值
-
-        public void Save()
+        public void UserManage()
         {
-            Data1 = DateTime.Now.ToString();
-        }*/
+            _WindowManager.ShowWindow(new UserAccViewModel());
+        }
 
-
-
+        public void Login()
+        {
+            _WindowManager.ShowWindow(new LoginViewModel());
+        }
 
     }
 
